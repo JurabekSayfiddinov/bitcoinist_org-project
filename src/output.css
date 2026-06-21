@@ -211,6 +211,15 @@
   .bottom-\[300px\] {
     bottom: 300px;
   }
+  .left-\[-200px\] {
+    left: -200px;
+  }
+  .left-\[-250px\] {
+    left: -250px;
+  }
+  .left-\[-300px\] {
+    left: -300px;
+  }
   .left-\[50px\] {
     left: 50px;
   }
@@ -249,6 +258,9 @@
   }
   .flex {
     display: flex;
+  }
+  .hidden {
+    display: none;
   }
   .h-\[600px\] {
     height: 600px;
@@ -310,6 +322,15 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
+  .gap-\[15px\] {
+    gap: 15px;
+  }
+  .gap-\[20px\] {
+    gap: 20px;
+  }
   .gap-\[25px\] {
     gap: 25px;
   }
@@ -343,6 +364,9 @@
   .bg-\[\#00000091\] {
     background-color: #00000091;
   }
+  .bg-\[\#02030B\] {
+    background-color: #02030B;
+  }
   .bg-\[b\] {
     background-color: b;
   }
@@ -356,12 +380,20 @@
     }
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
+  .from-\[\#344949\] {
+    --tw-gradient-from: #344949;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
   .from-\[\#FF4B32\] {
     --tw-gradient-from: #FF4B32;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .from-\[\#FF9A01\] {
     --tw-gradient-from: #FF9A01;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-\[\#63909C\] {
+    --tw-gradient-to: #63909C;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .to-\[\#FF4B32\] {
@@ -423,6 +455,11 @@
       bottom: 300px;
     }
   }
+  .lg\:left-\[-250px\] {
+    @media (width >= 64rem) {
+      left: -250px;
+    }
+  }
   .lg\:left-\[50px\] {
     @media (width >= 64rem) {
       left: 50px;
@@ -436,6 +473,11 @@
   .lg\:ml-\[100px\] {
     @media (width >= 64rem) {
       margin-left: 100px;
+    }
+  }
+  .lg\:flex {
+    @media (width >= 64rem) {
+      display: flex;
     }
   }
   .lg\:h-\[600px\] {
