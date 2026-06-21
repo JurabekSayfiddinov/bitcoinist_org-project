@@ -653,6 +653,11 @@
       width: 450px;
     }
   }
+  .lg\:w-\[600px\] {
+    @media (width >= 64rem) {
+      width: 600px;
+    }
+  }
   .lg\:w-\[650px\] {
     @media (width >= 64rem) {
       width: 650px;
